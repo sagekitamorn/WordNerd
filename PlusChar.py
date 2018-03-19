@@ -1,7 +1,7 @@
 # Which words are the same as other words plus a letter?
 #
 
-# Main loop
+
 #Intro schpiel
 print(
     "This app will search the dictionary for words with special properties. " +
