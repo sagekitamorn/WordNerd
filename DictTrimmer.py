@@ -16,7 +16,7 @@ skipCounter = 0
 with open('_No' + char + '_' + wordListFile, 'w') as outputWordList:
     for w in dict:
         lineCounter+=1
-        if char not in w:
+        if char not in w: #chagnge this to be case-insensitive and diacritic insensitive
             outputWordList.write(w)
             writeCounter+=1
         else:   
